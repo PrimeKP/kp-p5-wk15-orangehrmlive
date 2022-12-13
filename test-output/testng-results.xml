@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on forgot password link Forgot your password?]]>
+    </line>
+    <line>
+      <![CDATA[Get password reset message Reset Password]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name Admin]]>
+    </line>
+    <line>
+      <![CDATA[Enter password admin123]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button Login]]>
+    </line>
+    <line>
+      <![CDATA[Get header title of dashboard Dashboard]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="18582" started-at="2022-12-13T10:29:33 GMT" finished-at="2022-12-13T10:29:52 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest"/>
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="LoginPage Test" duration-ms="18582" started-at="2022-12-13T10:29:33 GMT" finished-at="2022-12-13T10:29:52 GMT">
+      <class name="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="setUp" is-config="true" duration-ms="3993" started-at="2022-12-13T10:29:44 GMT" finished-at="2022-12-13T10:29:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="inIt" is-config="true" duration-ms="3" started-at="2022-12-13T10:29:48 GMT" finished-at="2022-12-13T10:29:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="2135" started-at="2022-12-13T10:29:48 GMT" finished-at="2022-12-13T10:29:50 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name Admin]]>
+            </line>
+            <line>
+              <![CDATA[Enter password admin123]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button Login]]>
+            </line>
+            <line>
+              <![CDATA[Get header title of dashboard Dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@42f93a98]" name="tearDown" is-config="true" duration-ms="1131" started-at="2022-12-13T10:29:51 GMT" finished-at="2022-12-13T10:29:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest -->
+      <class name="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="setUp" is-config="true" duration-ms="7353" started-at="2022-12-13T10:29:34 GMT" finished-at="2022-12-13T10:29:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="inIt" is-config="true" duration-ms="47" started-at="2022-12-13T10:29:42 GMT" finished-at="2022-12-13T10:29:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="1153" started-at="2022-12-13T10:29:42 GMT" finished-at="2022-12-13T10:29:43 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on forgot password link Forgot your password?]]>
+            </line>
+            <line>
+              <![CDATA[Get password reset message Reset Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@1f57539]" name="tearDown" is-config="true" duration-ms="1083" started-at="2022-12-13T10:29:43 GMT" finished-at="2022-12-13T10:29:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest -->
+    </test> <!-- LoginPage Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
